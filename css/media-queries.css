@@ -1,0 +1,273 @@
+@media (max-width: 1300px) {
+  .container {
+    width: 90%;
+  }
+
+  header nav {
+    gap: 9.133rem;
+    margin-bottom: 15.4rem;
+  }
+
+  header nav .nav-icons {
+    gap: 2.04rem;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 1250px) {
+  #section-menu .type.coffee::after {
+    height: 101%;
+  }
+
+  #section-menu .poster .fast-delivery {
+    width: 71%;
+  }
+
+  .sugar {
+    display: none;
+  }
+}
+
+@media (max-width: 1144px) {
+  #section-testimonials .testimonial-card {
+    flex-direction: column;
+  }
+
+  #section-testimonials .testimonial-card .testimonial-img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1117px) {
+  header nav ul {
+    gap: 1.3rem;
+  }
+
+  footer .container .discount {
+    bottom: 117%;
+  }
+}
+
+@media (max-width: 992px) {
+  *::before,
+  *::after,
+  #section-menu .poster a::after {
+    display: none;
+  }
+
+  #section-menu .poster a {
+    text-align: left;
+  }
+
+  html {
+    font-size: 7px;
+  }
+  .container {
+    width: 80%;
+  }
+  header {
+    background-image: none;
+  }
+
+  header .nav-wrapper ul {
+    display: none;
+  }
+
+  header #section-hero {
+    width: 100%;
+  }
+
+  header #section-hero .pagination {
+    margin-left: 0;
+  }
+
+  .section-products-cards-wrapper {
+    flex-wrap: wrap;
+    gap: 3.5rem;
+  }
+
+  #section-products .section-products-card {
+    width: 45%;
+  }
+
+  #section-menu .container {
+    gap: 7.5rem;
+    flex-direction: column;
+  }
+
+  #section-menu .menu {
+    flex-direction: row;
+    gap: 2.743rem;
+    border-right: none;
+  }
+
+  #section-menu .poster {
+    width: 100%;
+  }
+
+  #section-menu .poster .fast-delivery {
+    width: 60%;
+  }
+
+  .sodani {
+    display: none;
+  }
+
+  #section-menu .menu {
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+  }
+
+  #section-menu .menu::after {
+    display: none;
+  }
+
+  #section-hero .pagination {
+    display: none;
+  }
+
+  #section-popular .popular-card {
+    width: 45%;
+  }
+
+  footer .container .subscribe {
+    justify-content: space-around;
+  }
+  footer .container .discount {
+    padding: 3.1rem 0;
+  }
+
+  footer .container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  footer .logo-icons {
+    width: 100%;
+  }
+  footer .logo-icons img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 688px) {
+  html {
+    font-size: 7px;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  header .hero-btns,
+  header .hero-timing {
+    justify-content: center;
+  }
+
+  header .hero-btns a::after {
+    content: "";
+    position: absolute;
+    width: 6rem;
+    height: 102%;
+    transform: skew(341deg);
+    background-color: var(--sec-color);
+    top: 0;
+    border-radius: 1rem;
+    right: -2rem;
+  }
+
+  #section-hero .hero-text {
+    text-align: center;
+    width: 100%;
+  }
+
+  #section-hero .regular-text {
+    width: 100%;
+  }
+
+  #section-menu .menu {
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+  }
+
+  #section-menu .poster-text {
+    width: 100%;
+  }
+
+  #section-menu .cup-coffee {
+    display: none;
+  }
+
+  #section-menu .type.coffee {
+    padding: 7.47px;
+  }
+
+  #section-menu .type {
+    padding: 0;
+    gap: 0;
+    flex-direction: column;
+  }
+
+  #section-menu .poster {
+    text-align: center;
+  }
+
+  #section-menu .poster a {
+    text-align: center;
+    margin: 0 auto;
+    width: 35%;
+  }
+
+  #section-menu .type.coffee::after {
+    display: none;
+  }
+  #section-popular .popular-card {
+    width: 100%;
+  }
+
+  #section-popular .learn-more {
+    width: 40%;
+    text-align: center;
+  }
+
+  #section-popular .learn-more::after {
+    display: none;
+  }
+
+  #section-testimonials .testimonial-wrapper {
+    flex-direction: column;
+
+    gap: 3.2rem;
+    align-items: center;
+  }
+
+  #section-testimonials .testimonial-card {
+    width: 80%;
+  }
+
+  footer .container {
+    justify-content: center;
+  }
+
+  footer .container .subscribe button {
+    width: 33%;
+  }
+
+  footer .footer-col {
+    width: 80%;
+    text-align: center;
+  }
+
+  footer .logo-icons .footer-logo {
+    width: 50%;
+    margin-bottom: 5.8rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  footer .container .discount {
+    bottom: 102%;
+  }
+}

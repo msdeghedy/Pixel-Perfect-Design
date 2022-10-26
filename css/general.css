@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #2a333e;
+  --sec-color: #ea0000;
+  --white: #fff;
+  --pink: #fcc7c3;
+}
+
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+.container {
+  width: 128rem;
+  margin: 0 auto;
+}
+
+.section-padding {
+  padding-bottom: 11.4rem;
+}
+
+.section-heading-80 {
+  font-size: 8rem;
+  font-family: "Abhaya Libre";
+  letter-spacing: -0.08em;
+  color: var(--sec-color);
+}
+
+.section-heading-small {
+  font-size: 2rem;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.f-grow {
+  flex-grow: 1;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.logo {
+  width: 11.345rem;
+}
+
+.font-400 {
+  font-weight: 400;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+.font-600 {
+  font-weight: 600;
+}
+
+.font-700 {
+  font-weight: 700;
+}
+
+.font-800 {
+  font-weight: 800;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.nav-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.7rem;
+  padding: 0.3rem;
+  border: 2px solid transparent;
+  color: var(--primary-color);
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid var(--sec-color);
+}
+
+.red-shadow {
+  box-shadow: 0px 100px 80px rgba(234, 0, 37, 0.1),
+    0px 64.8148px 46.8519px rgba(234, 0, 37, 0.0759259),
+    0px 38.5185px 25.4815px rgba(234, 0, 37, 0.0607407),
+    0px 20px 13px rgba(234, 0, 37, 0.05),
+    0px 8.14815px 6.51852px rgba(234, 0, 37, 0.0392593),
+    0px 1.85185px 3.14815px rgba(234, 0, 37, 0.0240741);
+}
+
+.black-shadow {
+  box-shadow: 0px 100px 80px rgba(68, 68, 68, 0.1),
+    0px 64.8148px 46.8519px rgba(68, 68, 68, 0.0759259),
+    0px 38.5185px 25.4815px rgba(68, 68, 68, 0.0607407),
+    0px 20px 13px rgba(68, 68, 68, 0.05),
+    0px 8.14815px 6.51852px rgba(68, 68, 68, 0.0392593),
+    0px 1.85185px 3.14815px rgba(68, 68, 68, 0.0240741);
+}
+
+.skew {
+  transform: skew(341deg);
+}
+
+.border-radius {
+  border-radius: 1rem;
+}
+
+.regular-text {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
